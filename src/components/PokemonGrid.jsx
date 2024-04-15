@@ -40,8 +40,8 @@ export default function PokemonGrid(props) {
                 <img className='h-[300px] w-[1000px] bg-contain' src='https://www.freepnglogos.com/uploads/pokemon-logo-transparent-png-2.png'/>
             </div>
             
-            <div className='bg-grid-color p-3 flex flex-col gap-10 align-middle items-center rounded-xl'>
-                <input className='sticky top-1 z-10 mb-[50px]  border-[3px] rounded-xl outline-none focus:outline-none focus:ring focus:ring-yellow-500 focus:border-none w-full pl-2 h-[40px]' placeholder='Search' value={search} onChange={(e) => {
+            <div className='bg-gradient-to-r  from-indigo-300/55 via-purple-500/65 to-pink-400/75  p-3 flex flex-col gap-10 align-middle items-center rounded-xl'>
+                <input className='bg-gradient-to-r from-[#f3ea96e3] via-[#f7d169ed] via-[#f3dd5fe7] to-[#f1e428eb] sticky top-1 z-10 mb-[50px]  border-[3px] rounded-xl outline-none focus:outline-none focus:ring focus:ring-yellow-500 focus:border-none w-full pl-2 h-[40px]' placeholder='Search' value={search} onChange={(e) => {
                     setSearch(e.target.value)
                     }}></input>
                 <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-4 gap-9 z-0'>
