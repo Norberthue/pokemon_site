@@ -26,7 +26,7 @@ p {
 }
 
 input {
-  background: linear-gradient(90deg, rgba(195, 199, 134, 0.432) 0%, rgba(247, 209, 105, 0.63) 29%, rgba(243, 221, 95, 0.705)62%, rgba(241, 228, 40, 0.822) 100%); 
+  background: linear-gradient(90deg, rgba(195, 199, 134, 0.732) 0%, rgba(247, 209, 105, 0.93) 29%, rgba(243, 221, 95, 0.905)62%, rgba(241, 228, 40, 0.922) 100%); 
   border-color: linear-gradient(90deg, rgba(134, 135, 199, 0.432) 0%, rgba(247, 209, 105, 0.63) 29%, rgba(243, 221, 95, 0.705)62%, rgba(241, 228, 40, 0.822) 100%);
 }
 
