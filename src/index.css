@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    display:flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 28px;
+    background: url('https://img.goodfon.com/original/1400x1050/c/61/anime-art-fon-tekstura-pokemon.jpg');
+    
+    
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+}
+
+.bg-error-loading {
+  background: rgba(247, 105, 169, 0.63);
+}
+
+.bg-grid-color {
+  border: none;
+  background: linear-gradient(90deg, rgba(199, 134, 184, 0.432) 0%, rgba(247, 105, 169, 0.63) 29%, rgba(249, 112, 208, 0.705)62%, rgba(166, 111, 168, 0.822) 100%);
+}
+
+input {
+  background: linear-gradient(90deg, rgba(195, 199, 134, 0.432) 0%, rgba(247, 209, 105, 0.63) 29%, rgba(243, 221, 95, 0.705)62%, rgba(241, 228, 40, 0.822) 100%); 
+  border-color: linear-gradient(90deg, rgba(134, 135, 199, 0.432) 0%, rgba(247, 209, 105, 0.63) 29%, rgba(243, 221, 95, 0.705)62%, rgba(241, 228, 40, 0.822) 100%);
+}
+
+.thumb-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+    
+}
+
+.yellowShadow:hover {
+  transform: translate(-3px, -3px);
+  --tw-border-opacity: 1;
+  box-shadow: 6px 6px 0 0  rgb(250 204 21 / var(--tw-border-opacity));
+}
+
+  .rock {
+    background: radial-gradient(circle, rgb(236, 140, 51) 0%, rgb(160, 108, 96) 70%)
+  }
+  .ghost {
+    background: radial-gradient(circle, rgb(199, 105, 136) 0%, rgb(174, 174, 175) 70%)
+  }
+  .electric {
+    background: radial-gradient(circle, rgb(231, 235, 17) 0%, rgb(233, 232, 148) 70%)
+  }
+  .bug {
+    background: radial-gradient(circle, rgb(148, 155, 46) 0%, rgb(233, 227, 148) 70%)
+  }
+  .poison {
+    background: radial-gradient(circle, rgb(209, 76, 221) 0%, rgb(230, 148, 233) 70%)
+  }
+  .normal {
+    background: radial-gradient(circle, rgb(185, 183, 183) 0%, rgb(110, 126, 143) 70%)
+  }
+  .fairy {
+    background: radial-gradient(circle, rgb(179, 87, 144) 0%, rgb(233, 148, 174) 70%)
+  }
+  .fire {
+    background: radial-gradient(circle, rgb(204, 79, 79) 0%, rgb(233, 161, 148) 70%)
+  }
+  .grass {
+    background: radial-gradient(circle, rgb(79, 177, 60) 0%, rgb(172, 233, 148) 70%)  
+  }
+  .water {
+    background: radial-gradient(circle, rgb(15, 148, 189) 0%, rgba(148,187,233,1) 70%);
+  }
+
+  .fighting {
+    background: radial-gradient(circle, rgb(236, 142, 80) 0%, rgb(145, 81, 77) 70%)
+  }
+
+  .psychic{
+    background: radial-gradient(circle, rgb(204, 77, 230) 0%, rgb(150, 76, 153) 70%)
+  }
+
+  .ground {
+    background: radial-gradient(circle, rgb(175, 118, 71) 0%, rgb(121, 106, 84) 70%)
+  }
+  .flying {
+    background: radial-gradient(circle, rgb(207, 185, 166) 0%, rgb(100, 99, 98) 70%)
+  }
+
+
